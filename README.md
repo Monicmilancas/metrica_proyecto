@@ -1,110 +1,61 @@
-# 📘 Proyecto Integrado 1º DAW
+# Diagrama clases
 
-Este proyecto se desarrollará aplicando la metodología **MÉTRICA v3** dentro del marco de la norma **ISO/IEC 12207**. Los alumnos deben seguir un ciclo de vida estructurado y entregar cada fase documentada en su repositorio personal.
-## Técnicas y Prácticas Métrica v3 (PDF)
-https://administracionelectronica.gob.es/pae_Home/en/dam/jcr:da7d91fa-d6bd-467c-be32-a72e27c603b3/METRICA_V3_Tecnicas.pdf
+![img_14.png](img_14.png)
 
+# Estructura del src
 
-## 🎯 Objetivo General
-Desarrollar una pequeña aplicación software con almacenamiento en base de datos y diseño orientado a objetos, aplicando buenas prácticas de análisis, diseño, implementación y pruebas, siguiendo el modelo de desarrollo de MÉTRICA v3.
+![img_1.png](img_1.png)
 
-## 🧰 Herramientas Obligatorias y Recomendadas
+# Capturas test
 
-- ☕ Lenguaje de programación **Java**
-- 📦 **Maven** como gestor de dependencias
-- 🐬 **SQLite** como base de datos local
-- 🧰 **DBeaver** (recomendado) para gestión visual de BBDD
-- 🧱 **Umbrello** (obligatorio) para diagramas UML
-- 🌐 **GitHub** para control de versiones y entrega del proyecto
-- 🧪 **JUnit 5** para pruebas automatizadas
+## Test para la comprobación del calculo del precio del carrito
 
-## 📂 Estructura del Proyecto
+![img.png](img.png)
 
-```
-metrica_proyecto/
-├── README.md
-├── pom.xml
-├── src/
-│   ├── main/java/es/instituto/proyecto/
-│   │   ├── App.java
-│   │   └── db/Conexion.java
-│   └── test/java/es/instituto/proyecto/
-│       └── AppTest.java
-├── docs/uml/
-│   ├── Específicación requisitos del proyecto.doc
-│   └── diagramas_umbrello.xmi
-└── recursos/
-    └── basedatos.db
-```
+## Test agregar producto de electronica
 
-## 🔁 Ciclo de Vida del Proyecto
+![img_2.png](img_2.png)
 
-Fases basadas en MÉTRICA v3 adaptadas a ISO 12207:
+## Test agregar producto de textil
 
-1. **PSI** – Estudio de viabilidad
-2. **ASI** – Especificación de requisitos y análisis
-3. **DSI + CSI** – Diseño lógico y físico
-4. **IAS** – Implementación, pruebas y documentación técnica
-5. **Evaluación final** – Informe de calidad y checklist
+![img_3.png](img_3.png)
 
-## ✅ Tareas de Entrega en Moodle
+## Test agregar producto de alimentacion
 
-| Fase | Entrega en Moodle | Formato |
-|------|--------------------|---------|
-| PSI  | Estudio de Viabilidad | DOC  [OPCIONAL]|
-| ASI  | Requisitos + Casos de uso | DOC + diagrama de Umbrello [OBLIGATORIO]|
-| DSI  | Diagrama de clases y comportamiento | DOC + diagramas en Umbrello [OBLIGATORIO] |
-| IAS + CSI | Código, pruebas, documentación | Repositorio GitHub [OBLIGATORIO] |
-| Eval. | Informe de calidad y checklist | PDF [OPCIONAL]|
+![img_4.png](img_4.png)
 
-## 📘 README.md Recomendado
+## Test para limpiar el carrito
 
-```markdown
-# Proyecto Final - MÉTRICA v3 (ISO 12207)
+![img_5.png](img_5.png)
 
-Este proyecto forma parte del módulo de Entornos de Desarrollo.
+## Test eliminar producto de electronica
 
-## Tecnologías utilizadas
-- Java
-- Maven
-- SQLite + DBeaver
-- GitHub
-- Umbrello (diagramas UML)
-- JUnit 5 (pruebas unitarias)
+![img_6.png](img_6.png)
 
-## Estructura del repositorio
-[Ver estructura recomendada más arriba]
+## Test eliminar producto de textil 
 
-## Fases del proyecto
-- PSI: Estudio de viabilidad
-- ASI: Requisitos y análisis
-- DSI/CSI: Diseño técnico (diagramas)
-- IAS: Implementación y pruebas
+![img_7.png](img_7.png)
 
-## Pruebas unitarias
-El proyecto debe incluir pruebas automatizadas con **JUnit 5**. Se exige una **cobertura mínima del 50%** en las clases principales. Las pruebas deben estar bien organizadas en la carpeta `/test` y documentadas en el README.
+## Test eliminar producto de alimentacion
 
-## Autor
-- Nombre: TU NOMBRE
-- Repositorio: https://github.com/tu_usuario/metrica_proyecto
-```
+![img_8.png](img_8.png)
 
-## 📦 Dependencias (`pom.xml`)
+## Test buscar producto filtro
 
-Incluye dependencias básicas para:
+![img_9.png](img_9.png)
 
-- SQLite (`sqlite-jdbc`)
-- Pruebas con JUnit 5 (`junit-jupiter`)
+## Test buscar producto codigo
 
-Ver: https://github.com/profeInformatica101/maven
-Ver: https://profeinformatica101.github.io/tareas/java/bbdd/SQLite.html
+![img_10.png](img_10.png)
 
----
+## Test ordenar catalogo ascendente
 
-📁 **Recuerda:** Cada alumno debe tener su propio repositorio, aunque se trabaje en equipo. El repositorio se llamará:
+![img_11.png](img_11.png)
 
-```
-https://github.com/<usuario>/metrica_proyecto
-```
+## Test ordenar catalogo descendente
 
-¡Buena suerte y a programar siguiendo una metodología!
+![img_12.png](img_12.png)
+
+## Test de catalogo filtrado
+
+![img_13.png](img_13.png)

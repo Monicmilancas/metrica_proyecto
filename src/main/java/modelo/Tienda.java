@@ -41,7 +41,7 @@ public class Tienda {
      * Obtiene los productos de electrónica de la base de datos.
      * 
      * @param con Conexión a la base de datos.
-     * @throws SQLException Si se produce un error en la conexión.
+
      */
     public static void obtenerProductosElectronica(Connection con) {
         PreparedStatement smt;
@@ -74,7 +74,7 @@ public class Tienda {
      * Obtiene los productos de alimentación de la base de datos.
      *
      * @param con Conexión a la base de datos.
-     * @throws SQLException Si se produce un error en la conexión.
+
      */
     public static void obtenerProductosAlimentacion(Connection con) {
         PreparedStatement smt;
@@ -107,7 +107,7 @@ public class Tienda {
      * Obtiene los productos de textil de la base de datos.
      *
      * @param con Conexión a la base de datos.
-     * @throws SQLException Si se produce un error en la conexión.
+
      */
     public static void obtenerProductosTextil(Connection con) {
         PreparedStatement smt;

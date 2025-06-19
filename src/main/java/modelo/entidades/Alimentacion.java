@@ -1,5 +1,4 @@
 package modelo.entidades;
-
 import java.util.Date;
 
 public class Alimentacion extends Producto {

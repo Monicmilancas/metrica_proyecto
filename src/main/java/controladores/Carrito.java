@@ -151,10 +151,10 @@ public class Carrito {
     }
 
     /**
-     * Guarda el ticket actual en un archivo con el nombre ticket-<fecha_y_hora>.txt
+     * Guarda el ticket actual en un archivo con el nombre ticket--<<fecha_y_hora>>.txt
      * en el directorio ./tickets. Si el directorio no existe, lo crea.
      *
-     * @throws IOException Si se produce un error al escribir el archivo.
+
      */
     public static void guardarTicket() {
         String contenido = generarTicket();
